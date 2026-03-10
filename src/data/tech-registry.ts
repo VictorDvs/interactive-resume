@@ -6,7 +6,7 @@
  */
 const TECH_REGISTRY = {
   // ===== Frontend Frameworks =====
-  'React': { color: '#61DAFB' },
+  'Ixia CCMS': { color: '#61DAFB' },
   'Angular': { color: '#DD0031' },
   'Vue': { color: '#4FC08D' },
   'Vue.js': { color: '#4FC08D' },
@@ -18,7 +18,7 @@ const TECH_REGISTRY = {
   'Solid': { color: '#2C4F7C' },
   'SolidJS': { color: '#2C4F7C' },
   'Qwik': { color: '#18B6F6' },
-  'Gatsby': { color: '#663399' },
+  'Docusaurus': { color: '#50db50' },
   'Remix': { color: '#000000' },
   'Ember': { color: '#E04E39' },
   'Preact': { color: '#673AB8' },
@@ -33,9 +33,9 @@ const TECH_REGISTRY = {
   'Go': { color: '#00ADD8' },
   'Golang': { color: '#00ADD8' },
   'Rust': { color: '#DEA584' },
-  'Ruby': { color: '#CC342D' },
+  'DITA': { color: '#CC342D' },
   'PHP': { color: '#777BB4' },
-  'C': { color: '#A8B9CC' },
+  'Markdown': { color: '#bea4a4' },
   'C++': { color: '#00599C' },
   'C#': { color: '#512BD4' },
   'Swift': { color: '#F05138' },

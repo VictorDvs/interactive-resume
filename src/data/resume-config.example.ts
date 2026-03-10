@@ -12,26 +12,26 @@ import type { ResumeConfig } from './types'
 export const resumeConfig: ResumeConfig = {
   // ===== PERSONAL INFO =====
   personal: {
-    name: 'Jane Doe',
+    name: 'Victor De Vos',
     // Auto-detected: just drop your photo or profile image in public/images/ (any .jpg, .png, .webp)
     // You can also set a specific path here to override auto-detection:
-    photo: '/images/photo.jpg',
+    photo: '/images/photo2.jpg',
     photoBackEmoji: '👩‍💻', // Shown when clicking the photo (3D flip)
     title: {
-      en: 'Fullstack Developer',
-      fr: 'Développeuse Fullstack',
+      en: 'Technical Writer',
+      fr: 'Rédacteur technique',
     },
     subtitle: {
-      en: '6 years of experience',
-      fr: '6 ans d\'expérience',
+      en: '2 years of experience',
+      fr: '2 ans d\'expérience',
     },
-    location: 'Paris, France',
+    location: 'Lyon, France',
   },
 
   // ===== SEO (used in <head> meta tags) =====
   seo: {
-    title: 'Jane Doe — Fullstack Developer',
-    description: 'Interactive resume of Jane Doe, Fullstack Developer specializing in React and TypeScript.',
+    title: 'Victor De Vos — Technical Writer',
+    description: 'Interactive resume of Victor De Vos, Technical Writer specializing in documentation and content creation.',
   },
 
   // ===== LANGUAGES =====
@@ -46,11 +46,11 @@ export const resumeConfig: ResumeConfig = {
 
   // ===== CONTACT =====
   contact: [
-    { type: 'github', label: 'janedoe', href: 'https://github.com/janedoe' },
-    { type: 'linkedin', label: 'Jane Doe', href: 'https://linkedin.com/in/janedoe' },
-    { type: 'email', label: 'jane@example.com' },
-    { type: 'phone', label: '+33 6 12 34 56 78' },
-    { type: 'location', label: 'Paris, France' },
+    { type: 'github', label: 'VictorDvs', href: 'https://github.com/VictorDvs' },
+    { type: 'linkedin', label: 'Victor De Vos', href: 'https://linkedin.com/in/victor2vos' },
+    { type: 'email', label: 'victordevos.pro@gmail.com' },
+    { type: 'phone', label: '+33 6 81 88 31 76' },
+    { type: 'location', label: 'Lyon, France' },
   ],
 
   // ===== SKILLS =====
@@ -60,7 +60,7 @@ export const resumeConfig: ResumeConfig = {
       type: 'languages',
       items: [
         { name: { en: 'French', fr: 'Français' }, level: { en: 'Native', fr: 'Natif' } },
-        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Professional', fr: 'Professionnel' }, details: 'TOEIC 910' },
+        { name: { en: 'English', fr: 'Anglais' }, level: { en: 'Professional', fr: 'Professionnel' }, details: 'TOEIC 950' },
       ],
     },
     {
@@ -89,16 +89,6 @@ export const resumeConfig: ResumeConfig = {
       ],
     },
     {
-      title: { en: 'DevOps', fr: 'DevOps' },
-      type: 'badges',
-      items: [
-        { name: 'Docker' },
-        { name: 'Kubernetes' },
-        { name: 'AWS' },
-        { name: 'GitHub Actions' },
-      ],
-    },
-    {
       title: { en: 'Methodologies', fr: 'Méthodologies' },
       type: 'text',
       items: [
@@ -111,51 +101,43 @@ export const resumeConfig: ResumeConfig = {
   experiences: [
     {
       id: 'company-a',
-      company: { en: 'TechCorp', fr: 'TechCorp' },
-      role: { en: 'Senior Fullstack Developer', fr: 'Développeuse Fullstack Senior' },
+      company: { en: 'Efor Group', fr: 'Efor Group' },
+      role: { en: 'Consultant', fr: 'Consultant' },
       type: { en: 'Permanent', fr: 'CDI' },
-      period: { en: '2022 - Present', fr: '2022 - Présent' },
+      period: { en: 'Nov. 2025 - Jan. 2026', fr: 'Nov. 2025 - Jan. 2026' },
       description: {
-        en: 'Led the development of a SaaS platform used by 10k+ users. Built microservices architecture and modern React frontend.',
-        fr: 'Direction du développement d\'une plateforme SaaS utilisée par 10k+ utilisateurs. Architecture microservices et frontend React moderne.',
+        en: 'Created user guides for a medical software. Structured writing, minimalist style, DITA XML ➡️ PDF.',
+        fr: 'Création du guide utilisateur d\'un logiciel dans le domaine médical. Rédaction structurée, style minimaliste, DITA XML ➡️ PDF.',
       },
-      techs: ['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Docker', 'AWS'],
+      techs: ['Ixia CCMS', 'DITA'],
       isHighlighted: true,
       details: {
         context: {
-          en: 'Team of 8 developers within a 50-person product company. Agile/Scrum methodology with 2-week sprints, CI/CD pipeline with GitHub Actions, code reviews on every PR.',
-          fr: 'Équipe de 8 développeurs au sein d\'une société produit de 50 personnes. Méthodologie Agile/Scrum avec sprints de 2 semaines, pipeline CI/CD avec GitHub Actions, code review sur chaque PR.',
+          en: 'The client needed a technical writer to create a user guide. Recurring points with the project manager, technical reviews, and generation of an initial version of the guide.',
+          fr: 'Le client avait besoin d\'un rédacteur technique pour créer un guide utilisateur en vue du déploiement d\'un de ses logiciels. Points récurrents avec le chef de projet, review technique et génération d\'une première version du guide.',
         },
         tasks: {
           en: [
-            'Designed and implemented the frontend architecture (monorepo, shared component library)',
-            'Built a real-time notification system using WebSockets and Redis pub/sub',
-            'Migrated legacy codebase from JavaScript to TypeScript (200+ files)',
-            'Implemented role-based access control (RBAC) across the entire platform',
-            'Set up automated testing with 85% code coverage (unit, integration, E2E)',
-            'Led the migration from REST to GraphQL for the main API',
-            'Built a dashboard analytics module with interactive charts and export features',
-            'Mentored 3 junior developers through pair programming and weekly 1-on-1s',
+            'Gathered technical information from project manager',
+            'Used Ixia CCMS to create the guide structure and write content in DITA XML',
+            'Wrote with a minimalist, user-focused style',
+            'Respected technical writing standards and regulatory requirements of the medical industry',
+            'Respected tight project deadlines for delivering the first version of the guide',
           ],
           fr: [
-            'Conception et implémentation de l\'architecture frontend (monorepo, bibliothèque de composants partagés)',
-            'Création d\'un système de notifications temps réel via WebSockets et Redis pub/sub',
-            'Migration du code legacy de JavaScript vers TypeScript (200+ fichiers)',
-            'Implémentation d\'un contrôle d\'accès basé sur les rôles (RBAC) sur toute la plateforme',
-            'Mise en place de tests automatisés avec 85% de couverture (unitaires, intégration, E2E)',
-            'Pilotage de la migration de REST vers GraphQL pour l\'API principale',
-            'Développement d\'un module de tableau de bord analytique avec graphiques interactifs et export',
-            'Mentorat de 3 développeurs juniors via pair programming et 1-on-1 hebdomadaires',
+            'Recueillir les informations techniques auprès du chef de projet',
+            'Utiliser Ixia CCMS pour créer la structure du guide et rédiger les contenus en DITA XML',
+            'Rédiger avec un style minimaliste et orienté utilisateur',
+            'Respecter les normes de rédaction technique et les exigences réglementaires du secteur médical',
+            'Respecter les délais serrés du projet pour la livraison de la première version du guide',
           ],
         },
         training: {
           en: [
-            'AWS Solutions Architect certification',
-            'Internal training on Kubernetes orchestration',
+            'Ixia CCMS internal training',
           ],
           fr: [
-            'Certification AWS Solutions Architect',
-            'Formation interne sur l\'orchestration Kubernetes',
+            'Formation interne sur Ixia CCMS',
           ],
         },
         env: {
@@ -262,39 +244,39 @@ export const resumeConfig: ResumeConfig = {
   projects: [
     {
       id: 'project-a',
-      title: { en: 'WeatherApp', fr: 'WeatherApp' },
+      title: { en: 'Portfolio of Pablo Cirès (Short documentary film director)', fr: 'Portfolio de Pablo Cirès (Réalisateur de court-métrage de documentaire)' },
       description: {
-        en: 'A real-time weather dashboard built with React and OpenWeather API.',
-        fr: 'Un tableau de bord météo en temps réel construit avec React et l\'API OpenWeather.',
+        en: 'Developed a portfolio website for short documentary film director Pablo Cirès, showcasing his films. Designed an elegant and responsive interface for an optimal user experience.',
+        fr: 'Développement d\'un portfolio pour le réalisateur de court-métrage Pablo Cirès mettant en avant ses films. Conception d\'une interface élégante et responsive pour une expérience utilisateur optimale.',
       },
-      techs: ['React', 'TypeScript'],
-      url: 'https://weather-app.example.com',
-      github: 'https://github.com/janedoe/weather-app',
+      techs: ['Vue.js', 'JavaScript', 'SCSS'],
+      url: 'https://www.pablocires.me/',
     },
     {
       id: 'project-b',
-      title: { en: 'TaskManager', fr: 'TaskManager' },
+      title: { en: 'Fastpack', fr: 'Fastpack' },
       description: {
-        en: 'A Kanban-style task management tool with drag-and-drop.',
-        fr: 'Un outil de gestion de tâches style Kanban avec glisser-déposer.',
+        en: 'Documentation for a fictional packaging tool designed to automate, simplify, and standardize the preparation of web projects prior to deployment.',
+        fr: 'Documentation d\'un outil fictif de packaging conçu pour automatiser, simplifier et standardiser la préparation de projets web avant déploiement.',
       },
-      techs: ['React', 'Node.js', 'PostgreSQL'],
-      github: 'https://github.com/janedoe/task-manager',
+      techs: ['Docusaurus', 'Markdown', 'Netlify'],
+      github: 'https://github.com/VictorDvs/Fastpack',
+      url: 'https://fastpack-documentation.netlify.app/',
     },
   ],
 
   // ===== EDUCATION =====
   education: [
     {
-      school: { en: 'University of Paris', fr: 'Université de Paris' },
-      degree: { en: 'Master in Computer Science', fr: 'Master Informatique' },
+      school: { en: 'AFPA Digital Territory', fr: 'AFPA Territoire Digital' },
+      degree: { en: 'Professional Title (Front-end validated)', fr: 'Titre Professionnel (Front-end validé)' },
       specialty: { en: 'Web & Mobile Development', fr: 'Développement Web & Mobile' },
-      period: '2017 - 2019',
+      period: '2024-2025',
     },
     {
-      school: { en: 'University of Paris', fr: 'Université de Paris' },
-      degree: { en: 'Bachelor in Computer Science', fr: 'Licence Informatique' },
-      period: '2014 - 2017',
+      school: { en: 'University Paris Cité', fr: 'Université Paris Cité' },
+      degree: { en: 'Bachelor in Computer Science', fr: 'Licence professionnelle' },
+      period: '2021 - 2022',
     },
   ],
 
