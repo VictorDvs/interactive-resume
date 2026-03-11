@@ -275,7 +275,8 @@ export const resumeConfig: ResumeConfig = {
     },
     {
       school: { en: 'University Paris Cité', fr: 'Université Paris Cité' },
-      degree: { en: 'Bachelor in Computer Science', fr: 'Licence professionnelle' },
+      degree: { en: 'Bachelor', fr: 'Licence professionnelle' },
+      specialty: { en: 'Technical Communication', fr: 'Communication Technique' },
       period: '2021 - 2022',
     },
   ],
@@ -299,10 +300,7 @@ export const resumeConfig: ResumeConfig = {
       title: { en: 'Open Source', fr: 'Open Source' },
     },
     {
-      title: { en: 'Guitar', fr: 'Guitare' },
-      details: [
-        { en: '3 years', fr: '3 ans' },
-      ],
+      title: { en: 'Life in Coliving', fr: 'Vie en coliving' },
     },
   ],
 
