@@ -11,8 +11,8 @@ export const resumeConfig: ResumeConfig = {
     photo: '/images/photo2.jpg',
     photoBackEmoji: '👩‍💻', // Shown when clicking the photo (3D flip)
     title: {
-      en: 'Technical Writer',
-      fr: 'Rédacteur technique',
+      en: 'Software Technical Writer',
+      fr: 'Rédacteur Technique Logiciel',
     },
     subtitle: {
       en: '2 years of experience',
@@ -44,6 +44,7 @@ export const resumeConfig: ResumeConfig = {
     { type: 'email', label: 'victordevos.pro@gmail.com' },
     { type: 'phone', label: '+33 6 81 88 31 76' },
     { type: 'location', label: 'Lyon, France' },
+    { type: 'website', label: 'Portfolio', href: 'https://victor-de-vos-portfolio.netlify.app/' },
   ],
 
   // ===== SKILLS =====
@@ -66,32 +67,31 @@ export const resumeConfig: ResumeConfig = {
       ],
     },
     {
-      title: { en: 'Languages & Frameworks', fr: 'Langages & Frameworks' },
+      title: { en: 'Languages & Standards', fr: 'Langages & Standards' },
       type: 'badges',
       items: [
         { name: 'HTML' },
         { name: 'CSS' },
         { name: 'SCSS' },
         { name: 'JavaScript' },
-        { name: 'Vue.js' },
         { name: 'PHP' },
-        { name: 'Symfony' },
         { name: 'MySQL' },
         { name: 'Markdown' },
         { name: 'JSON' },
         { name: 'YAML' },
-        { name: 'API REST' },
+        { name: 'DITA XML' },
+        { name: 'DocBook' },
+        { name: 'OpenAPI' },
       ],
     },
     {
       title: { en: 'Other Tools', fr: 'Autres outils' },
       type: 'badges',
       items: [
-        { name: 'VS Code' },
+        { name: 'Postman' },
         { name: 'Git' },
         { name: 'MkDocs' },
         { name: 'Docusaurus' },
-        { name: 'Postman' },
       ],
     },
     {
@@ -106,14 +106,14 @@ export const resumeConfig: ResumeConfig = {
   // ===== PROFESSIONAL EXPERIENCES =====
   experiences: [
     {
-      id: 'company-a',
+      id: 'efor',
       company: { en: 'Efor Group', fr: 'Efor Group' },
       role: { en: 'Consultant', fr: 'Consultant' },
       type: { en: 'Permanent', fr: 'CDI' },
-      period: { en: 'Nov. 2025 - Jan. 2026', fr: 'Nov. 2025 - Jan. 2026' },
+      period: { en: 'Nov 2025 - Jan 2026', fr: 'Nov 2025 - Jan 2026' },
       description: {
-        en: 'Created user guides for a medical software. Structured writing, minimalist style, DITA XML ➡️ PDF.',
-        fr: 'Création du guide utilisateur d\'un logiciel dans le domaine médical. Rédaction structurée, style minimaliste, DITA XML ➡️ PDF.',
+        en: 'Created user guides for a medical software. Structured writing, minimalist style, DITA XML to PDF',
+        fr: 'Création du guide utilisateur d\'un logiciel dans le domaine médical. Rédaction structurée, style minimaliste, DITA XML vers PDF',
       },
       techs: ['Ixia CCMS', 'DITA'],
       isHighlighted: false,
@@ -124,17 +124,17 @@ export const resumeConfig: ResumeConfig = {
         },
         tasks: {
           en: [
-            'Gathered technical information from project manager',
-            'Used Ixia CCMS to create the guide structure and write content in DITA XML',
-            'Wrote with a minimalist, user-focused style',
-            'Respected technical writing standards and regulatory requirements of the medical industry',
+            'Gather technical information from project manager',
+            'Use Ixia CCMS to create the guide structure and write content in DITA XML',
+            'Write with a minimalist, user-focused style',
+            'Apply technical writing standards and regulatory requirements of the medical industry',
             'Respected tight project deadlines for delivering the first version of the guide',
           ],
           fr: [
             'Recueillir les informations techniques auprès du chef de projet',
             'Utiliser Ixia CCMS pour créer la structure du guide et rédiger les contenus en DITA XML',
             'Rédiger avec un style minimaliste et orienté utilisateur',
-            'Respecter les normes de rédaction technique et les exigences réglementaires du secteur médical',
+            'Appliquer les normes de rédaction technique et les exigences réglementaires du secteur médical',
             'Respecter les délais serrés du projet pour la livraison de la première version du guide',
           ],
         },
@@ -151,14 +151,14 @@ export const resumeConfig: ResumeConfig = {
     },
     },
     {
-      id: 'company-b',
+      id: 'baifall-dream',
       company: { en: 'Baïfall Dream', fr: 'Baïfall Dream' },
       role: { en: 'Web Developer', fr: 'Développeur web' },
       type: { en: 'Internship', fr: 'Stage' },
-      period: { en: 'Jan. 2025 - Mar. 2025', fr: 'Jan. 2025 - Mar. 2025' },
+      period: { en: 'Jan 2025 - Mar 2025', fr: 'Jan 2025 - Mars 2025' },
       description: {
-        en: 'Website design and development.',
-        fr: 'Création et développement d\'un site web.',
+        en: 'Website design and development',
+        fr: 'Création et développement d\'un site web',
       },
       techs: ['Symfony', 'MySQL', 'SCSS', 'Webpack', 'GitHub', 'Figma', 'Hostinger'],
       details: {
@@ -168,20 +168,20 @@ export const resumeConfig: ResumeConfig = {
         },
         tasks: {
           en: [
-            'Creating website mockups in Figma in collaboration with the client',
-            'Designing the relationships and structure of the MySQL database',
-            'Implementing core and secondary features (online payment, user account, admin panel, dynamic menu)',
-            'Regular feedback with the client to ensure the project meets their expectations',
-            'Integration of third-party API (Stripe)',
-            'Integration of unit and functional tests with PHPUnit',
+            'Create website mockups in Figma in collaboration with the client',
+            'Design the relationships and structure of the MySQL database',
+            'Implement core and secondary features (online payment, user account, admin panel, dynamic menu)',
+            'Communicate regularly with the client to ensure the project meets their expectations',
+            'Integrate third-party APIs and libraries (Stripe, Leaflet)',
+            'Implementunit and functional tests with PHPUnit',
           ],
           fr: [
-            'Réalisation des maquettes du site avec Figma en collaboration avec le client',
+            'Réaliser des maquettes du site avec Figma en collaboration avec le client',
             'Créer les relations et la structure de la base de données MySQL',
-            'Ajouts de fonctionnalités principales et secondaires (paiement en ligne, compte utilisateur, panneau d\'administration, menu dynamique)',
-            'Feedback régulier avec le client pour s\'assurer que le projet correspond à ses attentes',
-            'Intégration d\'API tierce (Stripe)',
-            'Intégration de tests unitaires et fonctionnels avec PHPUnit',
+            'Implémenter les fonctionnalités principales et secondaires (paiement en ligne, compte utilisateur, panneau d\'administration, menu dynamique)',
+            'Échanger régulièrement avec le client pour s\'assurer que le projet correspond à ses attentes',
+            'Intégrer des API et des bibliothèques tierces (Stripe, Leaflet)',
+            'Implémenter des tests unitaires et fonctionnels avec PHPUnit',
           ],
         },
         training: {
@@ -193,49 +193,77 @@ export const resumeConfig: ResumeConfig = {
           ],
         },
         env: {
-          en: 'React / Angular / TypeScript / SCSS / Tailwind CSS / Storybook / Figma / GitLab CI',
-          fr: 'React / Angular / TypeScript / SCSS / Tailwind CSS / Storybook / Figma / GitLab CI',
         },
       },
     },
     {
-      id: 'internship',
-      company: { en: 'StartupXYZ', fr: 'StartupXYZ' },
-      role: { en: 'Fullstack Developer Intern', fr: 'Stagiaire Développeuse Fullstack' },
-      type: { en: 'Internship', fr: 'Stage' },
-      period: { en: '2018 - 2019', fr: '2018 - 2019' },
+      id: 'exfo',
+      company: { en: 'EXFO', fr: 'EXFO' },
+      role: { en: 'Technical Writer', fr: 'Rédacteur Technique' },
+      type: { en: 'Temporary work', fr: 'Intérim' },
+      period: { en: 'Nov 2022 - Aug 2023', fr: 'Nov 2022 - Août 2023' },
       description: {
-        en: 'Contributed to the development of an e-commerce platform. Gained experience in fullstack development.',
-        fr: 'Contribution au développement d\'une plateforme e-commerce. Acquisition d\'expérience en développement fullstack.',
+        en: 'Production and maintenance of technical product documentation',
+        fr: 'Production et maintenance de la documentation technique produits',
       },
-      techs: ['React', 'Node.js', 'MongoDB', 'Machine Learning'],
+      techs: ['GitLab', 'MySQL', 'Oxygen XML', 'DITA XML', 'MkDocs', 'Markdown', 'YAML'],
       details: {
         context: {
-          en: 'Early-stage startup (seed round), small team of 5 developers building an e-commerce platform from the ground up. Fast-paced environment with weekly releases.',
-          fr: 'Startup en phase de démarrage (seed round), petite équipe de 5 développeurs construisant une plateforme e-commerce from scratch. Environnement rapide avec des releases hebdomadaires.',
+          en: 'I was hired to temporarily fill in for a technical writer. My role focused on managing several sets of documentation in DITA format and migrating documentation from Markdown, with the goal of transitioning to a “docs-as-code” workflow. ',
+          fr: 'J\'ai été recruté afin de remplacer temporairement une rédactrice technique. Mon rôle se concentrait sur la gestion de plusieurs documentations en format DITA et la migration d\'une documentation en Markdown, en vue de travailler en docs-as-code.',
         },
         tasks: {
           en: [
-            'Developed the product catalog with advanced filtering and search',
-            'Built the shopping cart with real-time inventory checking',
-            'Integrated Stripe payment gateway with 3D Secure support',
-            'Implemented user authentication with JWT and OAuth (Google, Facebook)',
-            'Created an admin dashboard for order management and analytics',
-            'Wrote API documentation with Swagger/OpenAPI',
+            'Write and update technical content',
+            'Gather feedback from subject matter experts',
+            'Proofread developer documentation',
+            'Migrate content from DITA to Markdown using the Oxygen XML CCMS',
+            'Adhere to documentation release milestones (major, minor, and fix releases)',
           ],
           fr: [
-            'Développement du catalogue produits avec filtrage avancé et recherche',
-            'Création du panier d\'achat avec vérification de stock en temps réel',
-            'Intégration de la passerelle de paiement Stripe avec support 3D Secure',
-            'Implémentation de l\'authentification utilisateur avec JWT et OAuth (Google, Facebook)',
-            'Création d\'un tableau de bord admin pour la gestion des commandes et les analytics',
-            'Rédaction de la documentation API avec Swagger/OpenAPI',
+            'Rédiger, Mettre à jour le contenu technique',
+            'Rassembler le feedback des experts métier',
+            'Relecture de la documentation des développeurs',
+            'Migrer le contenu en DITA vers le Markdown depuis le CCMS Oxygen XML',
+            'Respecter les jalons de publication de la documentation (versions majeures, mineures, fix)',
           ],
         },
-        env: {
-          en: 'React / Node.js / Express / MongoDB / Stripe / JWT / Docker / Heroku',
-          fr: 'React / Node.js / Express / MongoDB / Stripe / JWT / Docker / Heroku',
+        env: {},
+      },
+    },
+    {
+      id: 'olfeo',
+      company: { en: 'Olfeo', fr: 'Olfeo' },
+      role: { en: 'Technical Writer', fr: 'Rédacteur Technique' },
+      type: { en: 'Work-study Program', fr: 'Alternance' },
+      period: { en: 'Aug 2021 - Sep 2022', fr: 'Août 2021 - Sept 2022' },
+      description: {
+        en: 'Writing and managing technical documentation for the Olfeo software (SaaS)',
+        fr: 'Rédaction et gestion de la documentation technique du logiciel Olfeo (SaaS)',
+      },
+      techs: ['Paligo', 'DocBook', 'Confluence'],
+      details: {
+        context: {
+          en: 'I managed the technical documentation for the Olfeo software as part of its transition to a SaaS model. Since the documentation was new, my role was to organize it and update it as the product evolved.',
+          fr: 'J\'ai géré la documentation technique du logiciel Olfeo dans le cadre de son passage en mode SaaS. La documentation étant nouvelle, mon rôle était de la structurer et de la faire évoluer au fil du développement du produit.',
         },
+        tasks: {
+          en: [
+            'Create, write, and update technical content',
+            'Contribute to information architecture',
+            'Participate in daily and weekly meetings with the Product team (daily, weekly, retro)',
+            'Gather information from the Product Owner and internal tools',
+            'Create a knowledge base and its sections (Release Notes, Troubleshooting, FAQ)',
+          ],
+          fr: [
+            'Créer, rédiger et mettre à jour le contenu technique',
+            'Participer à l\'architecture de l\'information',
+            'Participer aux points quotidiens avec l\'équipe Produit (daily, weekly, retro)',
+            'Collecter l\'information auprès du Product Owner et des outils internes',
+            'Créer une base de connaissances et ses sections (Release Notes, Troubleshooting, FAQ)',
+          ],
+        },
+        env: {},
       },
     },
   ],
@@ -243,25 +271,36 @@ export const resumeConfig: ResumeConfig = {
   // ===== PROJECTS (optional) =====
   projects: [
     {
-      id: 'project-a',
+      id: 'portfolio-pablo-cires',
       title: { en: 'Portfolio of Pablo Cirès (Short documentary film director)', fr: 'Portfolio de Pablo Cirès (Réalisateur de court-métrage de documentaire)' },
       description: {
         en: 'Developed a portfolio website for short documentary film director Pablo Cirès, showcasing his films. Designed an elegant and responsive interface for an optimal user experience.',
         fr: 'Développement d\'un portfolio pour le réalisateur de court-métrage Pablo Cirès mettant en avant ses films. Conception d\'une interface élégante et responsive pour une expérience utilisateur optimale.',
       },
-      techs: ['Vue.js', 'JavaScript', 'SCSS'],
+      techs: ['Vue.js', 'JavaScript', 'SCSS', 'Netlify'],
       url: 'https://www.pablocires.me/',
     },
     {
-      id: 'project-b',
+      id: 'fastpack',
       title: { en: 'Fastpack', fr: 'Fastpack' },
       description: {
-        en: 'Documentation for a fictional packaging tool designed to automate, simplify, and standardize the preparation of web projects prior to deployment.',
-        fr: 'Documentation d\'un outil fictif de packaging conçu pour automatiser, simplifier et standardiser la préparation de projets web avant déploiement.',
+        en: 'Fastpack is a fictitious packaging tool designed to automate, simplify and standardize the preparation of web projects prior to deployment. I\'ve tried to document it here with Docusaurus. (French version only, for the moment).',
+        fr: 'Fastpack est un outil fictif de packaging conçu pour automatiser, simplifier et standardiser la préparation de projets web avant déploiement. J\'ai tenté ici de le documenter avec Docusaurus (En version française uniquement pour le moment).',
       },
       techs: ['Docusaurus', 'Markdown', 'Netlify'],
       github: 'https://github.com/VictorDvs/Fastpack',
       url: 'https://fastpack-documentation.netlify.app/',
+    },
+    {
+      id: 'restokit',
+      title: { en: 'Restokit', fr: 'Restokit' },
+      description: {
+        en: 'RestoKit is a fictitious SDK. For RESTful API references, I used the OpenAPI standard and integrated the Redocly tool into the project.',
+        fr: 'RestoKit est un SDK fictif. Pour les références API RESTful, j\'ai utilisé le standard OpenAPI et intégré l\'outil Redocly au projet.',
+      },
+      techs: ['MkDocs', 'Markdown', 'Netlify', 'OpenAPI', 'Redocly'],
+      github: 'https://github.com/VictorDvs/RestoKit',
+      url: 'https://restokit-sdk-documentation.netlify.app/',
     },
   ],
 
@@ -284,23 +323,29 @@ export const resumeConfig: ResumeConfig = {
   // ===== HOBBIES (optional) =====
   hobbies: [
     {
-      title: { en: 'Muay Thaï', fr: 'Muay Thaï' },
+      title: { en: 'Movies, Theater, Opera', fr: 'Cinéma, Théâtre, Opéra' },
     },
     {
-      title: { en: 'Table Tennis', fr: 'Tennis de table' },
+      title: { en: 'Sports', fr: 'Sports' },
       details: [
-        { en: 'Competition', fr: 'Compétition' },
+        { en: 'Table Tennis', fr: 'Tennis de table' },
+        { en: 'Muay Thaï', fr: 'Muay Thaï' },
       ],
     },
     {
       title: { en: 'Gaming', fr: 'Jeux' },
             details: [
         { en: 'Chess', fr: 'Échecs' },
-        { en: 'Video Games', fr: 'Jeux Vidéo' },
+        { en: 'Video Games', fr: 'Jeux Vidéos' },
       ],
     },
     {
       title: { en: 'Life in Coliving', fr: 'La vie en coliving' },
+                  details: [
+        { en: 'Evening events', fr: 'Soirées' },
+        { en: 'Barbecue', fr: 'Barbecue' },
+        { en: 'Excursions', fr: 'Excursions' },
+      ],
     },
   ],
 
