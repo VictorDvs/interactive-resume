@@ -57,35 +57,48 @@ export const resumeConfig: ResumeConfig = {
       ],
     },
     {
-      title: { en: 'Frontend', fr: 'Frontend' },
+      title: { en: 'CCMS', fr: 'CCMS' },
       type: 'badges',
       items: [
-        { name: 'React' },
-        { name: 'TypeScript' },
-        { name: 'Angular' },
+        { name: 'Oxygen XML' },
+        { name: 'Ixia CCMS' },
+        { name: 'Paligo' },
       ],
     },
     {
-      title: { en: 'Backend', fr: 'Backend' },
+      title: { en: 'Languages & Frameworks', fr: 'Langages & Frameworks' },
       type: 'badges',
       items: [
-        { name: 'Node.js' },
-        { name: 'Python' },
+        { name: 'HTML' },
+        { name: 'CSS' },
+        { name: 'SCSS' },
+        { name: 'JavaScript' },
+        { name: 'Vue.js' },
+        { name: 'PHP' },
+        { name: 'Symfony' },
+        { name: 'MySQL' },
+        { name: 'Markdown' },
+        { name: 'JSON' },
+        { name: 'YAML' },
+        { name: 'API REST' },
       ],
     },
     {
-      title: { en: 'Database', fr: 'Base de données' },
+      title: { en: 'Other Tools', fr: 'Autres outils' },
       type: 'badges',
       items: [
-        { name: 'PostgreSQL' },
-        { name: 'MongoDB' },
+        { name: 'VS Code' },
+        { name: 'Git' },
+        { name: 'MkDocs' },
+        { name: 'Docusaurus' },
+        { name: 'Postman' },
       ],
     },
     {
       title: { en: 'Methodologies', fr: 'Méthodologies' },
       type: 'text',
       items: [
-        { name: { en: 'Agile/Scrum, TDD, Code Review, CI/CD', fr: 'Agile/Scrum, TDD, Code Review, CI/CD' } },
+        { name: { en: 'Docs-as-Code, Agile, Structured Writing, Peer Review, Code Review', fr: 'Docs-as-Code, Agile, Rédaction structurée, Peer Review, Code Review' } },
       ],
     },
   ],
@@ -139,48 +152,44 @@ export const resumeConfig: ResumeConfig = {
     },
     {
       id: 'company-b',
-      company: { en: 'WebAgency', fr: 'WebAgency' },
-      role: { en: 'Frontend Developer', fr: 'Développeuse Frontend' },
-      type: { en: 'Permanent', fr: 'CDI' },
-      period: { en: '2019 - 2022', fr: '2019 - 2022' },
+      company: { en: 'Baïfall Dream', fr: 'Baïfall Dream' },
+      role: { en: 'Web Developer', fr: 'Développeur web' },
+      type: { en: 'Internship', fr: 'Stage' },
+      period: { en: 'Jan. 2025 - Mar. 2025', fr: 'Jan. 2025 - Mar. 2025' },
       description: {
-        en: 'Developed responsive web applications for various clients. Specialized in React and Angular projects.',
-        fr: 'Développement d\'applications web responsives pour divers clients. Spécialisée en projets React et Angular.',
+        en: 'Website design and development.',
+        fr: 'Création et développement d\'un site web.',
       },
-      techs: ['React', 'Angular', 'TypeScript', 'SCSS'],
+      techs: ['Symfony', 'MySQL', 'SCSS', 'Webpack', 'GitHub', 'Figma', 'Hostinger'],
       details: {
         context: {
-          en: 'Digital agency with 20+ clients across various industries (retail, finance, healthcare). Team of 12 developers, working on 3-4 projects simultaneously.',
-          fr: 'Agence digitale avec 20+ clients dans différents secteurs (retail, finance, santé). Équipe de 12 développeurs, travaillant sur 3-4 projets simultanément.',
+          en: 'I needed to build a website for a client who owns a restaurant. This was a project I completed as part of my Web Developer training program, working in tandem with a classmate.',
+          fr: 'Besoin de créer un site pour un client restaurateur. Stage de ma formation de Développeur Web, effectué en duo avec une collègue de promotion.',
         },
         tasks: {
           en: [
-            'Built 15+ client-facing web applications from scratch',
-            'Created and maintained a shared design system used across all agency projects',
-            'Implemented complex form workflows with multi-step validation',
-            'Optimized web performance achieving 90+ scores on Core Web Vitals',
-            'Integrated third-party APIs (payment, CRM, analytics)',
-            'Set up Storybook documentation for reusable components',
-            'Collaborated closely with UX designers to translate Figma mockups into pixel-perfect UIs',
+            'Creating website mockups in Figma in collaboration with the client',
+            'Designing the relationships and structure of the MySQL database',
+            'Implementing core and secondary features (online payment, user account, admin panel, dynamic menu)',
+            'Regular feedback with the client to ensure the project meets their expectations',
+            'Integration of third-party API (Stripe)',
+            'Integration of unit and functional tests with PHPUnit',
           ],
           fr: [
-            'Développement de 15+ applications web clients from scratch',
-            'Création et maintenance d\'un design system partagé utilisé sur tous les projets de l\'agence',
-            'Implémentation de workflows de formulaires complexes avec validation multi-étapes',
-            'Optimisation des performances web avec scores 90+ sur les Core Web Vitals',
-            'Intégration d\'APIs tierces (paiement, CRM, analytics)',
-            'Mise en place de la documentation Storybook pour les composants réutilisables',
-            'Collaboration étroite avec les designers UX pour traduire les maquettes Figma en interfaces pixel-perfect',
+            'Réalisation des maquettes du site avec Figma en collaboration avec le client',
+            'Créer les relations et la structure de la base de données MySQL',
+            'Ajouts de fonctionnalités principales et secondaires (paiement en ligne, compte utilisateur, panneau d\'administration, menu dynamique)',
+            'Feedback régulier avec le client pour s\'assurer que le projet correspond à ses attentes',
+            'Intégration d\'API tierce (Stripe)',
+            'Intégration de tests unitaires et fonctionnels avec PHPUnit',
           ],
         },
         training: {
           en: [
-            'Angular Advanced workshop (2 days)',
-            'Accessibility (WCAG 2.1) certification',
+            'Getting Started with Hostinger',
           ],
           fr: [
-            'Workshop Angular Avancé (2 jours)',
-            'Certification Accessibilité (WCAG 2.1)',
+            'Prise en main d\'Hostinger',
           ],
         },
         env: {
@@ -275,23 +284,23 @@ export const resumeConfig: ResumeConfig = {
   // ===== HOBBIES (optional) =====
   hobbies: [
     {
-      title: { en: 'Photography', fr: 'Photographie' },
+      title: { en: 'Muay Thaï', fr: 'Muay Thaï' },
+    },
+    {
+      title: { en: 'Table Tennis', fr: 'Tennis de table' },
       details: [
-        { en: 'Street photography', fr: 'Photo de rue' },
-        { en: '5 years', fr: '5 ans' },
+        { en: 'Competition', fr: 'Compétition' },
       ],
     },
     {
-      title: { en: 'Hiking', fr: 'Randonnée' },
-      details: [
-        { en: 'Mountain trails', fr: 'Sentiers de montagne' },
+      title: { en: 'Gaming', fr: 'Jeux' },
+            details: [
+        { en: 'Chess', fr: 'Échecs' },
+        { en: 'Video Games', fr: 'Jeux Vidéo' },
       ],
     },
     {
-      title: { en: 'Open Source', fr: 'Open Source' },
-    },
-    {
-      title: { en: 'Life in Coliving', fr: 'Vie en coliving' },
+      title: { en: 'Life in Coliving', fr: 'La vie en coliving' },
     },
   ],
 

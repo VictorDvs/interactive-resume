@@ -7,7 +7,7 @@
 const TECH_REGISTRY = {
   // ===== Frontend Frameworks =====
   'Ixia CCMS': { color: '#61DAFB' },
-  'Angular': { color: '#DD0031' },
+  'Oxygen XML': { color: '#DD0031' },
   'Vue': { color: '#4FC08D' },
   'Vue.js': { color: '#4FC08D' },
   'Svelte': { color: '#FF3E00' },
@@ -66,7 +66,7 @@ const TECH_REGISTRY = {
   'Rails': { color: '#CC0000' },
   'Ruby on Rails': { color: '#CC0000' },
   'Laravel': { color: '#FF2D20' },
-  'Symfony': { color: '#000000' },
+  'Symfony': { color: '#7521ad' },
   'ASP.NET': { color: '#512BD4' },
   '.NET': { color: '#512BD4' },
   'Deno': { color: '#000000' },
